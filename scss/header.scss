@@ -1,0 +1,20 @@
+@import "partials";
+.hdr{
+    .navbar{
+        &:not(.bg-transparent){
+            background-color: $primary;
+        }
+    }
+    .navbar-brand{
+        img{
+            max-width: 140px;
+        }
+    }
+    .navbar-nav{
+        background-color: transparent;
+        .nav-link{
+            color: #fff;
+            font-family: $titleFont;
+        }
+    }
+}
